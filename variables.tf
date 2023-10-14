@@ -3,7 +3,17 @@ variable "user_uuid" {
   type        = string
 }
 
-variable "s3_bucket_name" {
+variable "bucket_name" {
   description = "s3 bucket name"
+  type        = string
+}
+
+variable "index_html_filepath" {
+  description = "The file path for index.html"
+  type        = string
+}
+
+variable "error_html_filepath" {
+  description = "The file path for error.html"
   type        = string
 }
