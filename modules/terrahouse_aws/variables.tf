@@ -27,6 +27,11 @@ variable "index_html_filepath" {
   # }
 }
 
+variable "assets_path" {
+  description = "path to asset folder"
+  type        = string
+}
+
 variable "error_html_filepath" {
   description = "The file path for error.html"
   type        = string
